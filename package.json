@@ -1,0 +1,37 @@
+{
+    "name": "supply-chain",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "react-app:dev": "yarn workspace @supply-chain/react-app dev",
+        "react-app:build": "yarn workspace @supply-chain/react-app build",
+        "react-app:start": "yarn workspace @supply-chain/react-app start",
+        "react-app:lint": "yarn workspace @supply-chain/react-app lint",
+        "hardhat:test": "yarn workspace @supply-chain/hardhat test",
+        "hardhat:test-local": "yarn workspace @supply-chain/hardhat test-local",
+        "hardhat:accounts": "yarn workspace @supply-chain/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @supply-chain/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @supply-chain/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @supply-chain/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @supply-chain/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @supply-chain/hardhat fork-mainnet"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
